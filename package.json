@@ -1,0 +1,14 @@
+{
+  "name": "book-database-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for book database",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.4"
+  }
+}
