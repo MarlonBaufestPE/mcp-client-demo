@@ -42,7 +42,7 @@ En la raíz del proyecto, o en la carpeta `.vscode/`, crea un archivo llamado `m
 
 ```json
 {
-  "mcpServers": {
+  "servers": {
     "book-database": {
       "command": "node",
       "args": ["build/index.js"],
@@ -53,7 +53,7 @@ En la raíz del proyecto, o en la carpeta `.vscode/`, crea un archivo llamado `m
 ```
 
 **Explicación de los campos:**
-- `mcpServers`: Objeto que contiene la configuración de todos los servidores MCP
+- `servers`: Objeto que contiene la configuración de todos los servidores MCP
 - `"book-database"`: Nombre identificador del servidor (puede personalizarse)
 - `command`: Comando para ejecutar el servidor (en este caso, Node.js)
 - `args`: Argumentos para el comando (ruta al archivo compilado)

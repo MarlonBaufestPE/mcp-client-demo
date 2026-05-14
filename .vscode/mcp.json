@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "book-database": {
+      "command": "node",
+      "args": ["build/index.js"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
